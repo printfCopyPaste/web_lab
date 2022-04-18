@@ -1,0 +1,77 @@
+body{
+	background-color:	#333;
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+
+
+.title{
+	color: #9f64e8;
+	padding: 10px 0;
+	font-size: 3rem;
+}
+
+.socials{
+	margin-top: -50px;
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 75px;
+	align-items: center;
+}
+.picture{
+
+    height:50px;
+    width:50px;
+}
+.contact{
+	padding: 5px;
+	letter-spacing: 0.7px;
+	color: #fff;
+font-style: italic;
+}
+
+hr{
+width: 500px;
+}
+
+.section-container{
+	width: 700px;
+	padding: 10px;
+}
+
+.section-title{
+	font-size: 1.2rem;
+	color: #9f64e8;
+}
+
+.list-element{
+padding: 5px 0px;
+}
+
+.i{
+padding: 10px 0px 10px 10px;
+font-style:italic;
+}
+
+.skill-container{
+width: 500px;
+display: flex;
+justify-content: space-between;
+}
+
+.skill-pill{
+width: 100px;
+height: 30px;
+font-size: 0.8rem;
+line-height: 30px;
+border-radius: 15px;
+background-color: #9f64e8;
+text-align:center;
+}
